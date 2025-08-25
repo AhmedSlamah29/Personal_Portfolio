@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Personal Portofolio</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="stylesheet.css" />
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script>
+      (function () {
+        emailjs.init("YOUR_PUBLIC_KEY"); // You'll get this from EmailJS
+      })();
+    </script>
+  </head>
+  <body>
+    <header class="navBar">
+      <a class="logo" href="#">AHMED SALAMA</a>
+      <ul>
+        <li><a href="#bio">Bio & Media</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </header>
+    <section id="bio">
+      <div class="bio">
+        <h1>
+          I AM AHMED SALAMA <br />
+          <span> SOFTWARE ENGINEER</span>
+        </h1>
+        <h2>
+          a passionate Electrical Engineer specializing in Power and Control
+          Systems, with a growing focus on Power Electronics, Cybersecurity, and
+          AI applications in smart energy systems. Alongside my engineering
+          studies,
+          <span
+            >I’m building strong skills in programming (C#, JavaScript, MATLAB,
+            and Simulink) and web development (HTML, CSS, React,
+            tailwend).</span
+          >
+          I enjoy blending practical problem-solving with technical innovation,
+          whether it’s designing control systems, developing simulations, or
+          experimenting with software solutions. I also have a strong interest
+          in cybersecurity for industrial systems, aiming to integrate secure
+          and efficient technologies into future energy infrastructures.
+        </h2>
+
+        <ul class="sociallinks">
+          <li>
+            <a
+              href="https://www.linkedin.com/in/ahmed-slama-54a511322/"
+              target="_blank"
+              aria-label="LinkedIn Profile"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <path
+                  d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"
+                ></path>
+                <rect x="2" y="9" width="4" height="12"></rect>
+                <circle cx="4" cy="4" r="2"></circle>
+              </svg>
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://github.com/AhmedSlamah29"
+              target="_blank"
+              aria-label="GitHub Profile"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              >
+                <path
+                  d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"
+                ></path>
+              </svg>
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div>
+        <img id="bio img" src="/1-Photoroom.png" alt="PersonalImg" />
+      </div>
+    </section>
+    <section class="skills">
+      <h2>Skills</h2>
+      <div class="cards">
+        <div class="card">
+          <h3>Programming & Development</h3>
+          <p>
+            C# and ASP.NET (Web Development) JavaScript, HTML, CSS (Frontend
+            Basics) MATLAB & Simulink (Modeling, Simulation, and Control
+            Systems) Assembly Language (Microprocessor Applications)
+          </p>
+        </div>
+        <div class="card">
+          <h3>Embedded Systems & Electronics</h3>
+          <p>
+            Microprocessor Programming (Timers, Counters, PWM, ADC, Serial
+            Communication) Circuit Design & Simulation (Proteus, Multisim) Power
+            Electronics (Choppers, Inverters, Converters) Control Systems (State
+            Space Representation, Convolution, Signals & Systems)
+          </p>
+        </div>
+        <div class="card">
+          <h3>Electrical Engineering & Power Systems</h3>
+          <p>
+            Power System Analysis & Machines SCADA Systems (Control &
+            Monitoring) Renewable & Traditional Energy Systems Electrical
+            Measurements & Instrumentation
+          </p>
+        </div>
+        <div class="card">
+          <h3>Cybersecurity & Networking (Engineering Context)</h3>
+          <p>
+            Computer Networking (LAN configuration, Ethernet setup) Basic
+            Cybersecurity Concepts in Industrial Systems (SCADA Security)
+            Network Protocols (TCP/IP, UDP) Basic Cybersecurity Practices
+            (Firewalls, Access Control)
+          </p>
+        </div>
+        <div class="card">
+          <h3>Software Tools</h3>
+          <p>MATLAB & Simulink Proteus AutoCAD Electrical Multisim</p>
+        </div>
+        <div class="card">
+          <h3>Soft Skills</h3>
+          <p>
+            Problem-Solving & Analytical Thinking Teamwork & Collaboration Time
+            Management & Organization Adaptability & Continuous Learning
+          </p>
+        </div>
+      </div>
+    </section>
+    <section id="projects" class="projects">
+      <h2>Projects</h2>
+      <div class="project-cards">
+        <div class="project-card">
+          <h3>Smart Energy Management System</h3>
+          <p>
+            Designed and simulated a smart grid system using MATLAB and Simulink
+            for optimized energy distribution.
+          </p>
+          <a href="#" class="project-link">View Project</a>
+        </div>
+        <div class="project-card">
+          <h3>Industrial Control System Security</h3>
+          <p>
+            Developed a secure SCADA system prototype with enhanced
+            cybersecurity measures for industrial applications.
+          </p>
+          <a href="#" class="project-link">View Project</a>
+        </div>
+        <div class="project-card">
+          <h3>Power Electronics Converter</h3>
+          <p>
+            Designed and implemented a DC-DC buck converter circuit with
+            efficiency optimization for renewable energy systems.
+          </p>
+          <a href="#" class="project-link">View Project</a>
+        </div>
+      </div>
+    </section>
+    <section id="contact" class="contact">
+      <h2>Contact Me</h2>
+      <div class="contact-container">
+        <div class="contact-info">
+          <h3>Get in Touch</h3>
+          <p>Feel free to reach out for collaborations or just to say hello!</p>
+          <div class="contact-item">
+            <i class="fas fa-envelope"></i>
+            <span>ahmedslamah29@gmail.com</span>
+          </div>
+          <div class="contact-item">
+            <i class="fas fa-phone"></i>
+            <span>+201002208156</span>
+          </div>
+          <div class="contact-item">
+            <i class="fas fa-map-marker-alt"></i>
+            <span>Cairo, Egypt</span>
+          </div>
+        </div>
+        <form
+          class="contact-form"
+          action="https://formspree.io/f/mkgvwdop"
+          method="POST"
+          target="_blank"
+        >
+          <input type="text" name="name" placeholder="Your Name" required />
+          <input type="email" name="email" placeholder="Your Email" required />
+          <textarea
+            name="message"
+            placeholder="Your Message"
+            rows="5"
+            required
+          ></textarea>
+          <button type="submit">Send Message</button>
+        </form>
+      </div>
+    </section>
+  </body>
+</html>
